@@ -44,4 +44,4 @@ If you want to run a test with a specific tag, use a command like the following:
 
     mvn verify -Dcucumber.filter.tags=@AddItemToShoppingCart
 
-If you want to run Firefox in `headless` mode, set `webdriver.path` in `test.properties` to `true`. Otherwise, set it to `false`.
+If you want to run Firefox in `headless` mode, set `webdriver.headless` in `test.properties` to `true`. Otherwise, set it to `false`.
